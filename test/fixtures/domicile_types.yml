@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  domicile_type_code: MyString
+  domicile_type_desc: MyString
+  state_id: 
+
+two:
+  domicile_type_code: MyString
+  domicile_type_desc: MyString
+  state_id: 

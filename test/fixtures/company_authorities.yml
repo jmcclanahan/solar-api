@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  effective_date: 2015-11-10
+  expiration_date: 2015-11-10
+  issue_date: 2015-11-10
+  company_id: 
+  company_type_id: 
+
+two:
+  effective_date: 2015-11-10
+  expiration_date: 2015-11-10
+  issue_date: 2015-11-10
+  company_id: 
+  company_type_id: 

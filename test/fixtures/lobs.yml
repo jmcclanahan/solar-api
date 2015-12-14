@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  effective_date: 
+  termination_date: 
+  line_type_id: 
+  company_authority_id: 
+
+two:
+  effective_date: 
+  termination_date: 
+  line_type_id: 
+  company_authority_id: 

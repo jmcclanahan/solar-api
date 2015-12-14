@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_type_code: MyString
+  company_type_desc: MyString
+  isactive: false
+
+two:
+  company_type_code: MyString
+  company_type_desc: MyString
+  isactive: false

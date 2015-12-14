@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  short_name: MyString
+  fein: 
+  date_of_incorp: 2015-10-12
+  domicile_type_id: 
+  country_id: 
+  state_id: 
+
+two:
+  name: MyString
+  short_name: MyString
+  fein: 
+  date_of_incorp: 2015-10-12
+  domicile_type_id: 
+  country_id: 
+  state_id: 

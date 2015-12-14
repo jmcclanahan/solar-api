@@ -1,0 +1,85 @@
+{
+  "companies": [{
+    "id": 4,
+    "name": "ABC Company",
+    "fein": 12,
+    "domicile_type_id": 11,
+    "country_id": 6,
+    "state_id": 11
+  }, {
+    "id": 5,
+    "name": "XYZ Company",
+    "fein": 1212,
+    "domicile_type_id": 11,
+    "country_id": 6,
+    "state_id": 11
+  }],
+  "states": [{
+    "id": 11,
+    "state_code": "AL",
+    "state_desc": "Alabama"
+  }],
+  "domicile_types": [{
+    "id": 11,
+    "domicile_type_code": "F",
+    "domicile_type_desc": "Foreign",
+    "state_id": 11
+  }],
+  "countries": [{
+    "id": 6,
+    "country_code": "USA",
+    "country_desc": "United States"
+  }]
+}
+
+{
+  "companies": [{
+    "id": 4,
+    "name": "ABC Company",
+    "fein": 12,
+    "domicile_type": {
+      "id": 11,
+      "domicile_type_code": "F",
+      "domicile_type_desc": "Foreign",
+      "state": {
+        "id": 11,
+        "state_code": "AL",
+        "state_desc": "Alabama"
+      }
+    },
+    "country": {
+      "id": 6,
+      "country_code": "USA",
+      "country_desc": "United States"
+    },
+    "state": {
+      "id": 11,
+      "state_code": "AL",
+      "state_desc": "Alabama"
+    }
+  }, {
+    "id": 5,
+    "name": "XYZ Company",
+    "fein": 1212,
+    "domicile_type": {
+      "id": 11,
+      "domicile_type_code": "F",
+      "domicile_type_desc": "Foreign",
+      "state": {
+        "id": 11,
+        "state_code": "AL",
+        "state_desc": "Alabama"
+      }
+    },
+    "country": {
+      "id": 6,
+      "country_code": "USA",
+      "country_desc": "United States"
+    },
+    "state": {
+      "id": 11,
+      "state_code": "AL",
+      "state_desc": "Alabama"
+    }
+  }]
+}
